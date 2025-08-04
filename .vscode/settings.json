@@ -1,0 +1,6 @@
+{
+  "github.advanced": {
+    "oauthRedirectPort": 5050,
+    "useIntegratedAuthFlow": true
+  }
+}
