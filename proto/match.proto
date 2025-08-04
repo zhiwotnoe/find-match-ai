@@ -1,0 +1,10 @@
+service Matcher {
+    rpc GetMatches (UserRequest) returns (MatchesResponse);
+}
+message UserRequest {
+    string user_id = 1;
+}
+message MatchResponse {
+    string user_id = 1;
+    float score = 2;
+}
